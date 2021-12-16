@@ -6,6 +6,8 @@ edition = "2018"
 [dependencies]
 tokio = { version = "1.1" }
 anyhow = { version = "1.0", default-features = false }
+dotenv = "0.15.0"
 iota-streams = { git = "https://github.com/iotaledger/streams", tag = "1.2.0" }
 bee-message = "=0.1.5"
 bee-rest-api = "=0.1.2"
+rand = "0.7.3"
